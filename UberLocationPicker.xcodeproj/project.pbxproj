@@ -21,6 +21,7 @@
 		264335D4196DE5B4006F8545 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264335B6196DE5B4006F8545 /* UIKit.framework */; };
 		264335DC196DE5B4006F8545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 264335DA196DE5B4006F8545 /* InfoPlist.strings */; };
 		264335DE196DE5B4006F8545 /* UberLocationPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264335DD196DE5B4006F8545 /* UberLocationPickerTests.m */; };
+		264335E8196DE5E9006F8545 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264335E7196DE5E9006F8545 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		264335D9196DE5B4006F8545 /* UberLocationPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UberLocationPickerTests-Info.plist"; sourceTree = "<group>"; };
 		264335DB196DE5B4006F8545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		264335DD196DE5B4006F8545 /* UberLocationPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberLocationPickerTests.m; sourceTree = "<group>"; };
+		264335E7196DE5E9006F8545 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264335E8196DE5E9006F8545 /* MapKit.framework in Frameworks */,
 				264335B5196DE5B4006F8545 /* CoreGraphics.framework in Frameworks */,
 				264335B7196DE5B4006F8545 /* UIKit.framework in Frameworks */,
 				264335B3196DE5B4006F8545 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		264335B1196DE5B4006F8545 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				264335E7196DE5E9006F8545 /* MapKit.framework */,
 				264335B2196DE5B4006F8545 /* Foundation.framework */,
 				264335B4196DE5B4006F8545 /* CoreGraphics.framework */,
 				264335B6196DE5B4006F8545 /* UIKit.framework */,
@@ -112,9 +116,9 @@
 		264335B8196DE5B4006F8545 /* UberLocationPicker */ = {
 			isa = PBXGroup;
 			children = (
+				264335C4196DE5B4006F8545 /* Main.storyboard */,
 				264335C1196DE5B4006F8545 /* AppDelegate.h */,
 				264335C2196DE5B4006F8545 /* AppDelegate.m */,
-				264335C4196DE5B4006F8545 /* Main.storyboard */,
 				264335C7196DE5B4006F8545 /* ViewController.h */,
 				264335C8196DE5B4006F8545 /* ViewController.m */,
 				264335CA196DE5B4006F8545 /* Images.xcassets */,
