@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264335B3196DE5B4006F8545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264335B2196DE5B4006F8545 /* Foundation.framework */; };
+		264335B5196DE5B4006F8545 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264335B4196DE5B4006F8545 /* CoreGraphics.framework */; };
+		264335B7196DE5B4006F8545 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264335B6196DE5B4006F8545 /* UIKit.framework */; };
+		264335BD196DE5B4006F8545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 264335BB196DE5B4006F8545 /* InfoPlist.strings */; };
+		264335BF196DE5B4006F8545 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 264335BE196DE5B4006F8545 /* main.m */; };
+		264335C3196DE5B4006F8545 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 264335C2196DE5B4006F8545 /* AppDelegate.m */; };
+		264335C6196DE5B4006F8545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 264335C4196DE5B4006F8545 /* Main.storyboard */; };
+		264335C9196DE5B4006F8545 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264335C8196DE5B4006F8545 /* ViewController.m */; };
+		264335CB196DE5B4006F8545 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264335CA196DE5B4006F8545 /* Images.xcassets */; };
+		264335D2196DE5B4006F8545 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264335D1196DE5B4006F8545 /* XCTest.framework */; };
+		264335D3196DE5B4006F8545 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264335B2196DE5B4006F8545 /* Foundation.framework */; };
+		264335D4196DE5B4006F8545 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 264335B6196DE5B4006F8545 /* UIKit.framework */; };
+		264335DC196DE5B4006F8545 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 264335DA196DE5B4006F8545 /* InfoPlist.strings */; };
+		264335DE196DE5B4006F8545 /* UberLocationPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 264335DD196DE5B4006F8545 /* UberLocationPickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264335D5196DE5B4006F8545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264335A7196DE5B4006F8545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264335AE196DE5B4006F8545;
+			remoteInfo = UberLocationPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		264335AF196DE5B4006F8545 /* UberLocationPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberLocationPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		264335B2196DE5B4006F8545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		264335B4196DE5B4006F8545 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		264335B6196DE5B4006F8545 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		264335BA196DE5B4006F8545 /* UberLocationPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UberLocationPicker-Info.plist"; sourceTree = "<group>"; };
+		264335BC196DE5B4006F8545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		264335BE196DE5B4006F8545 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		264335C0196DE5B4006F8545 /* UberLocationPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UberLocationPicker-Prefix.pch"; sourceTree = "<group>"; };
+		264335C1196DE5B4006F8545 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		264335C2196DE5B4006F8545 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		264335C5196DE5B4006F8545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		264335C7196DE5B4006F8545 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		264335C8196DE5B4006F8545 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		264335CA196DE5B4006F8545 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		264335D0196DE5B4006F8545 /* UberLocationPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UberLocationPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		264335D1196DE5B4006F8545 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		264335D9196DE5B4006F8545 /* UberLocationPickerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UberLocationPickerTests-Info.plist"; sourceTree = "<group>"; };
+		264335DB196DE5B4006F8545 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		264335DD196DE5B4006F8545 /* UberLocationPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UberLocationPickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264335AC196DE5B4006F8545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264335B5196DE5B4006F8545 /* CoreGraphics.framework in Frameworks */,
+				264335B7196DE5B4006F8545 /* UIKit.framework in Frameworks */,
+				264335B3196DE5B4006F8545 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264335CD196DE5B4006F8545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264335D2196DE5B4006F8545 /* XCTest.framework in Frameworks */,
+				264335D4196DE5B4006F8545 /* UIKit.framework in Frameworks */,
+				264335D3196DE5B4006F8545 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264335A6196DE5B4006F8545 = {
+			isa = PBXGroup;
+			children = (
+				264335B8196DE5B4006F8545 /* UberLocationPicker */,
+				264335D7196DE5B4006F8545 /* UberLocationPickerTests */,
+				264335B1196DE5B4006F8545 /* Frameworks */,
+				264335B0196DE5B4006F8545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264335B0196DE5B4006F8545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264335AF196DE5B4006F8545 /* UberLocationPicker.app */,
+				264335D0196DE5B4006F8545 /* UberLocationPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264335B1196DE5B4006F8545 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				264335B2196DE5B4006F8545 /* Foundation.framework */,
+				264335B4196DE5B4006F8545 /* CoreGraphics.framework */,
+				264335B6196DE5B4006F8545 /* UIKit.framework */,
+				264335D1196DE5B4006F8545 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		264335B8196DE5B4006F8545 /* UberLocationPicker */ = {
+			isa = PBXGroup;
+			children = (
+				264335C1196DE5B4006F8545 /* AppDelegate.h */,
+				264335C2196DE5B4006F8545 /* AppDelegate.m */,
+				264335C4196DE5B4006F8545 /* Main.storyboard */,
+				264335C7196DE5B4006F8545 /* ViewController.h */,
+				264335C8196DE5B4006F8545 /* ViewController.m */,
+				264335CA196DE5B4006F8545 /* Images.xcassets */,
+				264335B9196DE5B4006F8545 /* Supporting Files */,
+			);
+			path = UberLocationPicker;
+			sourceTree = "<group>";
+		};
+		264335B9196DE5B4006F8545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				264335BA196DE5B4006F8545 /* UberLocationPicker-Info.plist */,
+				264335BB196DE5B4006F8545 /* InfoPlist.strings */,
+				264335BE196DE5B4006F8545 /* main.m */,
+				264335C0196DE5B4006F8545 /* UberLocationPicker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		264335D7196DE5B4006F8545 /* UberLocationPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				264335DD196DE5B4006F8545 /* UberLocationPickerTests.m */,
+				264335D8196DE5B4006F8545 /* Supporting Files */,
+			);
+			path = UberLocationPickerTests;
+			sourceTree = "<group>";
+		};
+		264335D8196DE5B4006F8545 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				264335D9196DE5B4006F8545 /* UberLocationPickerTests-Info.plist */,
+				264335DA196DE5B4006F8545 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264335AE196DE5B4006F8545 /* UberLocationPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264335E1196DE5B4006F8545 /* Build configuration list for PBXNativeTarget "UberLocationPicker" */;
+			buildPhases = (
+				264335AB196DE5B4006F8545 /* Sources */,
+				264335AC196DE5B4006F8545 /* Frameworks */,
+				264335AD196DE5B4006F8545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UberLocationPicker;
+			productName = UberLocationPicker;
+			productReference = 264335AF196DE5B4006F8545 /* UberLocationPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		264335CF196DE5B4006F8545 /* UberLocationPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264335E4196DE5B4006F8545 /* Build configuration list for PBXNativeTarget "UberLocationPickerTests" */;
+			buildPhases = (
+				264335CC196DE5B4006F8545 /* Sources */,
+				264335CD196DE5B4006F8545 /* Frameworks */,
+				264335CE196DE5B4006F8545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264335D6196DE5B4006F8545 /* PBXTargetDependency */,
+			);
+			name = UberLocationPickerTests;
+			productName = UberLocationPickerTests;
+			productReference = 264335D0196DE5B4006F8545 /* UberLocationPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264335A7196DE5B4006F8545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.rudolfmedia;
+				TargetAttributes = {
+					264335CF196DE5B4006F8545 = {
+						TestTargetID = 264335AE196DE5B4006F8545;
+					};
+				};
+			};
+			buildConfigurationList = 264335AA196DE5B4006F8545 /* Build configuration list for PBXProject "UberLocationPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264335A6196DE5B4006F8545;
+			productRefGroup = 264335B0196DE5B4006F8545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264335AE196DE5B4006F8545 /* UberLocationPicker */,
+				264335CF196DE5B4006F8545 /* UberLocationPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264335AD196DE5B4006F8545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264335CB196DE5B4006F8545 /* Images.xcassets in Resources */,
+				264335BD196DE5B4006F8545 /* InfoPlist.strings in Resources */,
+				264335C6196DE5B4006F8545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264335CE196DE5B4006F8545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264335DC196DE5B4006F8545 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264335AB196DE5B4006F8545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264335C9196DE5B4006F8545 /* ViewController.m in Sources */,
+				264335C3196DE5B4006F8545 /* AppDelegate.m in Sources */,
+				264335BF196DE5B4006F8545 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264335CC196DE5B4006F8545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264335DE196DE5B4006F8545 /* UberLocationPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		264335D6196DE5B4006F8545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264335AE196DE5B4006F8545 /* UberLocationPicker */;
+			targetProxy = 264335D5196DE5B4006F8545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		264335BB196DE5B4006F8545 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264335BC196DE5B4006F8545 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		264335C4196DE5B4006F8545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264335C5196DE5B4006F8545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		264335DA196DE5B4006F8545 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				264335DB196DE5B4006F8545 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		264335DF196DE5B4006F8545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		264335E0196DE5B4006F8545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		264335E2196DE5B4006F8545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UberLocationPicker/UberLocationPicker-Prefix.pch";
+				INFOPLIST_FILE = "UberLocationPicker/UberLocationPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		264335E3196DE5B4006F8545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UberLocationPicker/UberLocationPicker-Prefix.pch";
+				INFOPLIST_FILE = "UberLocationPicker/UberLocationPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		264335E5196DE5B4006F8545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UberLocationPicker.app/UberLocationPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UberLocationPicker/UberLocationPicker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UberLocationPickerTests/UberLocationPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		264335E6196DE5B4006F8545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UberLocationPicker.app/UberLocationPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UberLocationPicker/UberLocationPicker-Prefix.pch";
+				INFOPLIST_FILE = "UberLocationPickerTests/UberLocationPickerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264335AA196DE5B4006F8545 /* Build configuration list for PBXProject "UberLocationPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264335DF196DE5B4006F8545 /* Debug */,
+				264335E0196DE5B4006F8545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264335E1196DE5B4006F8545 /* Build configuration list for PBXNativeTarget "UberLocationPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264335E2196DE5B4006F8545 /* Debug */,
+				264335E3196DE5B4006F8545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		264335E4196DE5B4006F8545 /* Build configuration list for PBXNativeTarget "UberLocationPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264335E5196DE5B4006F8545 /* Debug */,
+				264335E6196DE5B4006F8545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264335A7196DE5B4006F8545 /* Project object */;
+}
